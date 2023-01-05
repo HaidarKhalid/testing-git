@@ -1,3 +1,3 @@
 let randomEl = document.getElementById("random")
-let randomNum = Math.float(Math.random() * 3)
+let randomNum = Math.floor(Math.random() * 4)
 randomEl.textContent = "your random number is --> " + randomNum
